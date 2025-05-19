@@ -6,6 +6,7 @@
     <title>Kourtnee's Project</title>
     <link rel="stylesheet" href="./style.css" />
     <script src="https://kit.fontawesome.com/22ba7db6a4.js" crossorigin="anonymous"></script>
+  <script defer src="'.index.js"></script>
   </head>
   <body>
     <section id="landing">
@@ -36,34 +37,35 @@
           </div>
         </nav>
       </div>
+      <div class="row">
+      <div class="landing__wrapper">
       <div class="column__wrapper">
         <div class="column__one">
           <h1 class="landing__title">
             Beautiful React Templates <span class="purple__1">for you.</span>
           </h1>
-          <p>
+          <p class="landing__para">
             Our templates are easy to set up, understand and customize. Fully
             modular components with a variety of pages and components.
           </p>
           <div class="btn__wrapper">
+            
             <input type="email" placeholder=" Your E-mail Address" />
             <button class="btn"><span class="white">Get Started </span></button>
           </div>
-          <div>
+          
             <p class="column__one--logo">OUR TRUSTED CUSTOMERS</p>
             <img
               class="column__one--img"
-              src="./assets 3/customers-logo-strip.680ac7c2e8ae28161d2c.png"
-            />
-          </div>
+              src="./assets 3/customers-logo-strip.680ac7c2e8ae28161d2c.png"/>
+            
         </div>
 
         <div class="column__img--container">
           <img
             class="column__two--img"
-            src="./assets 3/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt=""
-          />
-        </div>
+            src="./assets 3/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt=""/>
+      </div>
       </div>
     </section>
 
@@ -73,8 +75,8 @@
           <div class="three__column--wrapper">
             <span class="column__heading">
             <h5><span class="purple__heading">FEATURES</span></h5>
-            <h2>We have Amazing<span class="purple">Service.</span></h2>
-            <p>
+            <h2 class="feature__heading">We have Amazing<span class="purple">Service.</span></h2>
+            <p class="feature__para">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
@@ -201,7 +203,7 @@
 <div class="steps__wrapper">
 <h5> <span class="purple__subheading">STEPS</span></h5>
 <h2> Easy to<span class="purple">Get Started.</span></h2>
-<ul>
+<ul class="steps__column">
   <li class="numbered__steps">
     <div class="step__num">01</div>
     <div class="step__text">
@@ -236,27 +238,30 @@
     <div class="value__wrapper">
     <div class="value__heading">VALUES</div>
 <h2 class="value__sub--heading">We Always Abide by Our <span class="value__purple">Principles. </span></h2>
-<p class="feature__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eaque quisquam aspernatur sequi debitis pariatur, sunt aperiam quae, quia deserunt obcaecati itaque incidunt recusandae, libero nobis consequuntur beatae saepe tempora.
-</p>   
+<p class="feature__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 <div class="feature__description--wrapper">
 <div class="horizontal__feature">
 
   <div class="feature__icon--container"> 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
-</svg>
-  </div>
-
-<div class="feature__icon--text"> Affordable </div>
-<p class="feature__description"> We promise to offer you the best rate we can - at par with the industry standard.</p>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign">
+      <line x1="12" y1="1" x2="12" y2="23"></line>
+      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+  </svg>
+  
+  <div class="feature__icon--text"> Affordable </div>
+</div>
+  <p class="feature__description"> We promise to offer you the best rate we can - at par with the industry standard.</p>
 </div>
 
 <div class="horizontal__feature">
 
   <div class="feature__icon--container">
-
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-briefcase">
+      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+    </svg>
+    <div class="feature__icon--text"> Professionalism </div>
   </div>
-<div class="feature__icon--text"> Professionalism </div>
 <p class="feature__description"> We assure you that our templates are designed and created by professional designers.</p>
 </div>
 </div>
@@ -410,15 +415,30 @@
 </section>
 <section id="footer info">
 <div class="footer__info">
+  <div class="img__title--wrapper">
   <div class="footer__img">
-    <img src="./assets 3/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
+    <img src="./assets 3/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Treact Logo">
   </div>
     <h5 class="footer__title">Treact Inc.</h5>
-
+</div>
   <h5 class="footer__copyright">© 2018 Treact Inc. All Rights Reserved.</h5>
-  <a class=footer__link href="facebook"></a>
-  <a class=footer__link href="twitter"></a>
-  <a class=footer__link href="youtube"></a>
+  <div class="footer__logos">
+  <a class=footer__link href="https://facebook.com">
+  <svg fill="currentColor" viewBox="0 0 24 24">
+    <path d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5z"></path>
+  </svg>
+  </a>
+  <a class=footer__link href="https:://twitter.com">
+  <svg fill="currentColor" viewBox="0 0 24 24">
+    <path d="M22.162 5.656a8.384 8.384 0 01-2.402.658A4.196 4.196 0 0021.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 00-7.126 3.814 11.874 11.874 0 01-8.62-4.37 4.168 4.168 0 00-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 01-1.894-.523v.052a4.185 4.185 0 003.355 4.101 4.21 4.21 0 01-1.89.072A4.185 4.185 0 007.97 16.65a8.394 8.394 0 01-6.191 1.732 11.83 11.83 0 006.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 002.087-2.165z"></path>
+  </svg>
+  </a>
+  <a class=footer__link href="https://youtube.com">
+  <svg fill="currentColor" viewBox="0 0 24 24">
+    <path d="M21.543 6.498C22 8.28 22 12 22 12s0 3.72-.457 5.502c-.254.985-.997 1.76-1.938 2.022C17.896 20 12 20 12 20s-5.893 0-7.605-.476c-.945-.266-1.687-1.04-1.938-2.022C2 15.72 2 12 2 12s0-3.72.457-5.502c.254-.985.997-1.76 1.938-2.022C6.107 4 12 4 12 4s5.896 0 7.605.476c.945.266 1.687 1.04 1.938 2.022zM10 15.5l6-3.5-6-3.5v7z"></path>
+  </svg>
+  </a>
+</div>
 </div>
 
 
