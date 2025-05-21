@@ -213,7 +213,7 @@ color:rgb (36, 62, 99);
 positIon :absolute;
  top:0;
  bottom:0;
- z-index:3;
+ z-index: index 1;;
  transition:border-color 300ms;
 
 }
@@ -256,9 +256,9 @@ input {
   border: none;
   background-color: #6415ff;
   display:inline;
-  float:right;
+  float:left;
   padding: 10px 50px;
- z-index:1;
+ z-index:3;
 }
 
 /* FEATURES */
