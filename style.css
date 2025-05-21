@@ -150,6 +150,7 @@ img {
 
 .white {
   color: #ffffff;
+  font-size:16px;
 }
 
 p {
@@ -201,21 +202,21 @@ p {
 .btn__wrapper {
   position: relative;
   width: 100%;
-  max-width: 28rem;
+  
 }
 
 .header__email--input {
-  width:100;
-border-radius: 500px;
+  width:105%;
+  height:120%;
+border-radius: 1000px;
 border: 2px solid rgb(229, 231, 235);
-padding: 20px 192px 20px 32px;
-color:rgb (36, 62, 99);
+padding: 20px 160px 30px 32px;
+color:rgb (36, 62,99);
 positIon :absolute;
  top:0;
  bottom:0;
  z-index: index 1;;
  transition:border-color 300ms;
-
 }
 
 .column__two--img {
@@ -240,25 +241,19 @@ positIon :absolute;
   width: 100%;
 }
 
-input {
-  max-width: 100%;
-  border: 1px solid;
-  border-radius: 30px;
-  width: 60%;
-  height: 30%;
-}
-
 .btn {
+  text-align: center;
   font-size: 13px;
   font-weight: bold;
   width: 40%;
-  border-radius: 100px;
-  border: none;
+  border-radius: 60px;
+  border:none;
   background-color: #6415ff;
   display:inline;
-  float:left;
-  padding: 10px 50px;
+  float:right;
+  padding: 5px 40px;
  z-index:3;
+ position:relative;
 }
 
 /* FEATURES */
