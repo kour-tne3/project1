@@ -150,7 +150,7 @@ img {
 
 .white {
   color: #ffffff;
-  font-size:16px;
+  font-size: 16px;
 }
 
 p {
@@ -202,21 +202,20 @@ p {
 .btn__wrapper {
   position: relative;
   width: 100%;
-  
 }
 
 .header__email--input {
-  width:105%;
-  height:120%;
-border-radius: 1000px;
-border: 2px solid rgb(229, 231, 235);
-padding: 20px 160px 30px 32px;
-color:rgb (36, 62,99);
-positIon :absolute;
- top:0;
- bottom:0;
- z-index: index 1;;
- transition:border-color 300ms;
+  width: 105%;
+  height: 120%;
+  border-radius: 1000px;
+  border: 2px solid rgb(229, 231, 235);
+  padding: 10px 160px 10px 32px;
+  color: rgb (36, 62, 99);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: index 1;
+  transition: border-color 300ms;
 }
 
 .column__two--img {
@@ -247,13 +246,14 @@ positIon :absolute;
   font-weight: bold;
   width: 40%;
   border-radius: 60px;
-  border:none;
+  border: none;
   background-color: #6415ff;
-  display:inline;
-  float:right;
+  display: inline;
+  float: right;
   padding: 5px 40px;
- z-index:3;
- position:relative;
+  margin-top: 8px;
+  z-index: 3;
+  position: relative;
 }
 
 /* FEATURES */
@@ -577,7 +577,8 @@ positIon :absolute;
 }
 
 .value__img {
-  margin-left: 100px;
+  margin-left: 90px;
+  padding-right: 60px;
 }
 
 .value__column--img {
@@ -756,6 +757,33 @@ positIon :absolute;
 
 /* SMALL PHONES, TABLETS, LARGER SMARTSPHONES */
 
+@media (max-width: 576px) {
+  .nav__links { 
+  display:none;
+   }
+   .nav__links.active {
+    /* display:block; */
+   }
+
+  .bar {
+    height: 4px;
+    background-color: black;
+    transition: all 0.3s ease;
+  }
+
+  .burgerMenu {
+    /* display: none; */
+   cursor:pointer;
+   display:flex;
+   flex-direction:comlumn;
+   width:30px;
+   height:20px;
+   justify-content:space-between;
+   margin:20px;
+  }
+  
+}
+
 @media (max-width: 768px) {
   /* LANDING */
   .column__wrapper {
@@ -885,7 +913,7 @@ positIon :absolute;
     text-align: left;
     font-size: 17px;
     line-height: 1.5;
-    margin-bottom:0;
+    margin-bottom: 0;
   }
 
   .feature__description--wrapper {
@@ -913,7 +941,7 @@ positIon :absolute;
   .value__img {
     width: 100%;
     padding-right: 50px;
-    margin-left:50px;
+    margin-left: 50px;
   }
 
   /* PRICING */
@@ -924,7 +952,7 @@ positIon :absolute;
 
   .pricing__para {
     text-align: center;
-    padding:0;
+    padding: 0;
   }
 
   .container__pricing--wrapper {
@@ -943,9 +971,4 @@ positIon :absolute;
     display: flex;
     align-items: center;
   }
-}
-
-/* TABLETS, SMALL LAPTOPS,LARGER TABLETS */
-
-@media (max-width: 550px) {
 }
