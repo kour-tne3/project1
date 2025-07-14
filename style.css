@@ -188,7 +188,7 @@ p {
   right: 0;
   bottom: 0;
   z-index: 99;
-  background:purple;
+  background: purple;
   list-style: none;
   padding-top: 4rem;
 }
@@ -436,7 +436,7 @@ i {
 }
 
 .right__img {
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 /* STEPS */
@@ -806,20 +806,20 @@ i {
     display: flex;
     flex-direction: column;
     cursor: pointer;
-   
+
     /* z-index:1000; */
     /* position: fixed; */
     /* top:1rem; */
     /* right:1rem; */
   }
-  
+
   .row {
     overflow: hidden;
   }
 
   .nav__img {
-    width:20px;
-    height:20px;
+    width: 20px;
+    height: 20px;
   }
 
   .nav__title {
@@ -831,11 +831,11 @@ i {
   }
 
   h1.landing__title {
-    font-size: 21px;
+    font-size: 18px;
   }
-  
+
   p.landing__para {
-    font-size:13px;
+    font-size: 13px;
   }
 
   .header__email--input {
@@ -857,17 +857,105 @@ i {
     color: white;
     border: none;
     cursor: pointer;
-    }
-
-.column__one--img {
-    /* PAUSED HERE */
-    
-}
-
-
-
   }
 
+  .column__one {
+    display: flex;
+    align-items: center;
+  }
+  .column__one--img {
+    padding-right: 0;
+  }
+
+  .column__two--img {
+    width: auto;
+    max-width: 100%;
+  }
+  /* FEATURES */
+  h2.feature__heading {
+    font-size: 36px;
+  }
+
+  p.feature__para {
+    font-size: 16px;
+  }
+
+  .column__card--wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .three__column--card {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .text__container {
+    /* display: flex; */
+    /* flex-direction: column; */
+  }
+
+  p.description {
+    font-size: 13px;
+  }
+
+  .three__column--container {
+    padding:30px 0;
+  }
+  /* QUALITY */
+
+  #quality {
+    padding: 0px 0;
+  }
+
+.whole__column--wrapper {
+  width:100%;
+}
+  .quailty__column__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+   
+  }
+
+  .right__column--img {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    height:auto;
+    margin-top:0;
+    margin-bottom:0;
+  }
+
+.left__column--one {
+  align-items: center;
+}
+
+h5.purple {
+  font-size:16px;
+}
+
+h2.quality__heading {
+  font-size: 30px;
+  max-width:100%;
+  }
+
+.left__column--one {
+max-width:100%;
+
+}
+p.quality__para {
+  font-size: 14px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+}
 @media (max-width: 768px) {
   /* LANDING */
   .column__wrapper {
